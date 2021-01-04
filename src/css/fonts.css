@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext");
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url("../fonts/futura-bold.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../fonts/futura-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura-bold.woff2") format("woff2"), url("../fonts/futura-bold.woff") format("woff"), url("../fonts/futura-bold.ttf") format("truetype"), url("../fonts/futura-bold.svg#muller_extrabold_demo") format("svg");
+  /* Chrome < 4, Legacy iOS */
+}

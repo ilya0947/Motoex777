@@ -1,0 +1,75 @@
+@media screen and (max-width: 1024px)
+	.m_none
+		display: none !important
+
+	header
+		font-size: 50px
+
+	footer
+		font-size: 34px
+		margin-top: 40px
+
+	header h1
+		padding-top: 5vh
+
+	.content_wrap
+		width: auto
+
+		h1, h2
+			font-size: 30px
+
+		.line
+			width: 150px
+
+		p.desc
+			font-size: 18px
+			line-height: 24px
+
+	section
+		&.price .data .unit
+			justify-content: space-between
+			width: auto
+			padding: 0 0 20px
+			margin-right: 0 !important
+			margin-bottom: 20px
+			box-shadow: 0 3px 3px #ddd
+			border-radius: 0
+
+			&:last-child
+				box-shadow: none
+
+			.image
+				width: 90%
+				margin: 0 auto
+
+		&.trip .trip_data
+			.select_view a
+				width: 40%
+
+			.table
+				th
+					padding-left: 20px
+
+				td
+					padding: 15px 20px
+
+@media screen and (max-width: 350px)
+	header
+		font-size: 45px
+
+	.content_wrap
+		h1, h2
+			font-size: 26px
+
+		i.line
+			width: 100px
+
+@media screen and ( max-width: 576px )
+	header
+		background: url('../img/header.jpg') 65% center/cover no-repeat
+
+@media screen and (min-height: 750px)
+	header h1
+		padding-top: 10vh
+
+	
